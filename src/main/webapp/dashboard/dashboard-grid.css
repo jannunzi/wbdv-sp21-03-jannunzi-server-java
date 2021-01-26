@@ -1,0 +1,10 @@
+.wbdv-sticky-top {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+.wbdv-padding-5px {
+    padding: 5px;
+}
