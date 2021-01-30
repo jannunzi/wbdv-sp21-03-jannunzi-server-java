@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.example.wbdvsp2103jannunziserverjava.DemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.591 s - in com.example.wbdvsp2103jannunziserverjava.DemoApplicationTests
