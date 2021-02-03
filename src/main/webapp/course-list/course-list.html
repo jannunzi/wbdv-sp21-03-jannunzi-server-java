@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href=
+            "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href=
+            "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="course.style.client.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+    <script src="../services/course.service.client.js"></script>
+    <style>
+        /*h1 {*/
+        /*    background-color: red*/
+        /*}*/
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <h1 id="the-course-list-heading">Course List</h1>
+        <button id="wbdv-create-course">Add Course</button>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Title</th>
+                <th>Seats</th>
+                <th>Semester</th>
+                <th></th>
+            </tr>
+            <tr>
+                <th><input class="form-control"/></th>
+                <th>
+                    <input type="number"
+                           class="form-control"/></th>
+                <th>
+                    <select class="form-control">
+                        <option>Spring</option>
+                        <option>Summer</option>
+                        <option>Fall</option>
+                    </select>
+                </th>
+                <th>
+                    <button>Update</button>
+                    <button>Create</button>
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>CS5610</td>
+                <td>90</td>
+                <td>Spring</td>
+                <td>
+                    <button>Delete</button>
+                    <button>Select</button>
+                </td>
+            </tr>
+            <tr>
+                <td>CS3200</td>
+                <td>90</td>
+                <td>Spring</td>
+                <td>
+                    <button>Delete</button>
+                    <button>Select</button>
+                </td>
+            </tr>
+            <tr>
+                <td>CS4550</td>
+                <td>90</td>
+                <td>Spring</td>
+                <td>
+                    <button>Delete</button>
+                    <button>Select</button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <h1>Register for courses now!</h1>
+    </div>
+    <script src="course.controller.client.js"></script>
+</body>
+</html>
