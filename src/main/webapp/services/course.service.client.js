@@ -18,7 +18,7 @@ function CourseServiceClient() {
     })
   }
   function findAllCourses() {
-    return fetch(self.url)
+    return  fetch(self.url)
       .then(function (response) {
         return response.json()
     })
