@@ -26,7 +26,7 @@ public class HttpSessionExamples {
         return user;
     }
 
-    @GetMapping("/api/profile")
+    @GetMapping("/api/profile2")
     public User profile(HttpSession session) {
         User currentUser = (User)
                 session.getAttribute("currentUser");
